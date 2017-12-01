@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Numkinch"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/muetdhiver/Projets/Dépôts/Numkinch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/muetdhiver/Projets/Dépôts/Numkinch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/muetdhiver/Projets/Dépôts/Numkinch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Numkinch">
+				<Option output="/Users/muetdhiver/Projets/Dépôts/Numkinch/Numkinch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/muetdhiver/Projets/Dépôts/Numkinch"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 Numkinch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Numkinch/fast">
+				<Option output="/Users/muetdhiver/Projets/Dépôts/Numkinch/Numkinch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/muetdhiver/Projets/Dépôts/Numkinch"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 Numkinch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/muetdhiver/Projets/Dépôts/Numkinch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/ChooseCharactersState.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/ChooseCharactersState.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/GameEngine.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/GameEngine.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/GameState.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/GameStateManager.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/GameStateManager.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/MainMenuState.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/MainMenuState.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/PlayState.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Core/PlayState.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Background.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Background.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Button.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Button.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/CharacterCard.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/CharacterCard.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Element.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Element.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/GUIConstants.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/IDisplayable.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/IHandleable.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/StatCard.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/StatCard.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Text.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Text.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Tile.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/GUI/Tile.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/Main.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Assassin.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Assassin.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Barbarian.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Barbarian.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/CharacterFactory.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/CharacterFactory.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Class.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Class.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Classes.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Dwarf.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Dwarf.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Elf.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Elf.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Human.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Human.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Names.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Paladin.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Paladin.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/PlayerLogicConstants.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Priest.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Priest.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Race.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Race.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Races.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Skill.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Skill.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Skills.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Thief.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/PlayerLogic/Thief.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/BigCard.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/BigCard.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Card.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Card.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Dungeon.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Dungeon.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Entities.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Monster.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Monster.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Room.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Room.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Trap.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Trap.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Treasure.cpp">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/WorldLogic/Treasure.h">
+			<Option target="Numkinch"/>
+		</Unit>
+		<Unit filename="/Users/muetdhiver/Projets/Dépôts/Numkinch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

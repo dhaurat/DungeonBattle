@@ -1,0 +1,6 @@
+<map id="IHandleable" name="IHandleable">
+<area shape="rect" id="node2" href="$class_big_card.html" title="BigCard" alt="" coords="5,79,75,104"/>
+<area shape="rect" id="node3" href="$class_button.html" title="Button" alt="" coords="99,79,159,104"/>
+<area shape="rect" id="node4" href="$class_card.html" title="Card" alt="" coords="183,79,233,104"/>
+<area shape="rect" id="node5" href="$class_dungeon.html" title="Dungeon" alt="" coords="257,79,332,104"/>
+</map>

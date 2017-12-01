@@ -1,0 +1,5 @@
+<map id="Dungeon::update" name="Dungeon::update">
+<area shape="rect" id="node2" href="$class_dungeon.html#a43e733d451697045662f12656cfcbbe5" title="Dungeon::cleanup" alt="" coords="186,5,315,31"/>
+<area shape="rect" id="node3" href="$class_dungeon.html#a9584a5a0b87343ccfebb562fe4323b41" title="Dungeon::regenerate" alt="" coords="177,55,324,80"/>
+<area shape="rect" id="node4" href="$class_dungeon.html#aa9959c019189ae3f217574164ec0c55a" title="Dungeon::init" alt="" coords="201,104,301,129"/>
+</map>

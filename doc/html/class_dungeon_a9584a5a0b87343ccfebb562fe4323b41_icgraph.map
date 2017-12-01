@@ -1,0 +1,4 @@
+<map id="Dungeon::regenerate" name="Dungeon::regenerate">
+<area shape="rect" id="node2" href="$class_dungeon.html#a84487bed2478520094e48702ec9b03e2" title="Dungeon::update" alt="" coords="201,5,324,31"/>
+<area shape="rect" id="node3" href="$class_play_state.html#ac343605ef5ae7d77bbaca6b970d39f24" title="PlayState::update" alt="" coords="372,5,499,31"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Trap" name="Trap">
+<area shape="rect" id="node2" href="$class_room.html" title="Room" alt="" coords="82,167,139,192"/>
+<area shape="rect" id="node3" href="$class_big_card.html" title="BigCard" alt="" coords="75,80,145,105"/>
+<area shape="rect" id="node4" href="$class_i_handleable.html" title="IHandleable" alt="" coords="5,5,98,31"/>
+<area shape="rect" id="node5" href="$class_i_displayable.html" title="IDisplayable" alt="" coords="122,5,216,31"/>
+</map>

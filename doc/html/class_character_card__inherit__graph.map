@@ -1,0 +1,5 @@
+<map id="CharacterCard" name="CharacterCard">
+<area shape="rect" id="node2" href="$class_tile.html" title="Tile" alt="" coords="39,152,81,177"/>
+<area shape="rect" id="node3" href="$class_element.html" title="Element" alt="" coords="25,79,95,104"/>
+<area shape="rect" id="node4" href="$class_i_displayable.html" title="IDisplayable" alt="" coords="13,5,107,31"/>
+</map>

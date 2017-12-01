@@ -1,0 +1,5 @@
+<map id="GameEngine::Quit" name="GameEngine::Quit">
+<area shape="rect" id="node2" href="$class_choose_characters_state.html#a1c07439ce63e311ac06989189e94d4cf" title="ChooseCharactersState\l::handleEvents" alt="" coords="204,5,368,44"/>
+<area shape="rect" id="node3" href="$class_main_menu_state.html#a7074ba3fcd31c4b5fa01dc67ed5690fc" title="MainMenuState::handleEvents" alt="" coords="184,68,387,93"/>
+<area shape="rect" id="node4" href="$class_play_state.html#a4468bfbbe42d9b2c446ea7f80959b83f" title="PlayState::handleEvents" alt="" coords="203,117,369,143"/>
+</map>

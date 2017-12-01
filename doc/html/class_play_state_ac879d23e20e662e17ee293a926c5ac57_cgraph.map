@@ -1,0 +1,7 @@
+<map id="PlayState::updateCurrentPlayer" name="PlayState::updateCurrentPlayer">
+<area shape="rect" id="node2" href="$class_play_state.html#a1dcb2e4ce6f5083173ec0a9d714c276c" title="PlayState::fightMonster" alt="" coords="229,5,388,31"/>
+<area shape="rect" id="node3" href="$class_play_state.html#a4e8e96561d7324bc14bfc8f7c36a4dcd" title="PlayState::fleeMonster" alt="" coords="231,55,387,80"/>
+<area shape="rect" id="node4" href="$class_play_state.html#a8d2f6c4e374bcb2d080deff5fd866790" title="PlayState::takeTrap" alt="" coords="240,104,378,129"/>
+<area shape="rect" id="node5" href="$class_play_state.html#ae44f6f74ce083aa0fed577b8bcba5c2e" title="PlayState::takeTreasure" alt="" coords="227,153,391,179"/>
+<area shape="rect" id="node6" href="$class_character_factory.html#a80dd52e0f7064498cf2fd8d2c9e6e9b2" title="CharacterFactory::create\lCharacter" alt="" coords="224,203,393,241"/>
+</map>

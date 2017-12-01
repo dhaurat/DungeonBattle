@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Numkinch.dir/Main.cpp.o"
+  "CMakeFiles/Numkinch.dir/Core/GameEngine.cpp.o"
+  "CMakeFiles/Numkinch.dir/Core/MainMenuState.cpp.o"
+  "CMakeFiles/Numkinch.dir/Core/GameStateManager.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/Element.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/Button.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/Background.cpp.o"
+  "CMakeFiles/Numkinch.dir/Core/ChooseCharactersState.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/CharacterFactory.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Race.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Class.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Elf.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Skill.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Dwarf.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Assassin.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Paladin.cpp.o"
+  "CMakeFiles/Numkinch.dir/Core/PlayState.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/Tile.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Barbarian.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Human.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Thief.cpp.o"
+  "CMakeFiles/Numkinch.dir/PlayerLogic/Priest.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/Text.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/CharacterCard.cpp.o"
+  "CMakeFiles/Numkinch.dir/GUI/StatCard.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Dungeon.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Room.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Card.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Monster.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Trap.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/Treasure.cpp.o"
+  "CMakeFiles/Numkinch.dir/WorldLogic/BigCard.cpp.o"
+  "../Numkinch.pdb"
+  "../Numkinch"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Numkinch.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

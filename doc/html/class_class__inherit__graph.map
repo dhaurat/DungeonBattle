@@ -1,0 +1,6 @@
+<map id="Class" name="Class">
+<area shape="rect" id="node2" href="$class_assassin.html" title="Assassin" alt="" coords="5,79,80,104"/>
+<area shape="rect" id="node3" href="$class_paladin.html" title="Paladin" alt="" coords="104,79,170,104"/>
+<area shape="rect" id="node4" href="$class_priest.html" title="Priest" alt="" coords="194,79,249,104"/>
+<area shape="rect" id="node5" href="$class_thief.html" title="Thief" alt="" coords="273,79,324,104"/>
+</map>

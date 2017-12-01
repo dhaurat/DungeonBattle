@@ -1,0 +1,4 @@
+<map id="MainMenuState::handleEvents" name="MainMenuState::handleEvents">
+<area shape="rect" id="node2" href="$class_game_engine.html#a08dba9cea4715cf453a62b2aaecc7c51" title="GameEngine::Quit" alt="" coords="298,5,429,31"/>
+<area shape="rect" id="node3" href="$class_game_state_manager.html#a22fdbdcba6a25c27b0f80f6827dd3f18" title="GameStateManager::pushGame\lState" alt="" coords="256,55,470,93"/>
+</map>
