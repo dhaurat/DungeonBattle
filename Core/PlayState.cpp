@@ -155,6 +155,11 @@ void PlayState::update()
 
 bool PlayState::fightMonster(Monster * monster)
 {
+    if (_players[_currentPlayer]->getDefense()->getValue() >= monster->getAttack() && monster->getDefense() >= _players[_currentPlayer]->getAttack()->getValue())
+    {
+            printf("Combat impossible");
+            return  false;
+    }
     while (monster->getLife() > 0 && _players[_currentPlayer]->getLife()->getValue() > 0)
     {
         int pAttackValue = _players[_currentPlayer]->getAttack()->getValue() - monster->getDefense();

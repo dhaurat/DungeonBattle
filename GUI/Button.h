@@ -25,6 +25,8 @@ public:
     void cleanup() override;
 
     bool pressed() const;
+
+    void unpress();
 };
 
 

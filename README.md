@@ -163,6 +163,8 @@ Si vous parvenez à tuer le monstre, vous gagnez des points de compétence. Une 
 Plus un monstre est difficile à tuer, plus il est de haut niveau, et donc plus il rapporte de points si vous parvenez à le tuer.
 Attention cependant, car même si vous sortez vainqueur du combat, vous ne regagnerez pas les points de vie perdus lors du combat. Soyez donc prudent et gardez toujours un oeil sur vos points de vie avant de vous lancer dans un combat.
 
+Remarque : Si le défense de votre personnage est plus forte que l'attaque du monstre et que la défense du monstre est plus forte que votre attaque, le combat ne se fait pas. Vous ne gagnez pas de points de compétence mais ne perdez pas de points de vie.
+
 #### Fuite
 
 Si vous choisissez de fuir un combat, votre personnage à une chance sur quatre (quelques soit vos compétences) de se prendre un coup dans le dos qui lui fera immédiatement perdre la moitié de sa vie. 

@@ -86,8 +86,8 @@ Dungeon::Dungeon()
     _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "LOUP ALPHA", "Le chef de la meute. Peut-etre que tuer sa progeniture n'etait pas un tres bonne idee. Les loups du nord se rappellent de tout ...", MONSTER_12_IMAGE_PATH, 30, 5, 70, 5)));
     _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "SQUELETTE VIVANT", "Pour tuer un squelette, il faut viser le coeur. Enfin, c'est ce qu'on dit ...", MONSTER_13_IMAGE_PATH, 40, 10, 50, 6)));
     _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "SQUELETTE VIVANT", "Pour tuer un squelette, il faut viser le coeur. Enfin, c'est ce qu'on dit ...", MONSTER_13_IMAGE_PATH, 40, 10, 50, 6)));
-    _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "HORDE DE ZOMBIES", "Ils sont lents. Ils ne font pas tres mal. Ils ne sont pas resistants. Mais ils nombreux, tres nombreux, vraiment tres nombreux ...", MONSTER_14_IMAGE_PATH, 25, 0, 200, 6)));
-    _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "HORDE DE ZOMBIES", "Ils sont lents. Ils ne font pas tres mal. Ils ne sont pas resistants. Mais ils nombreux, tres nombreux, vraiment tres nombreux ...", MONSTER_14_IMAGE_PATH, 25, 0, 200, 6)));
+    _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "HORDE DE ZOMBIES", "Ils sont lents. Ils ne font pas tres mal. Ils ne sont pas resistants. Mais ils sont nombreux, tres nombreux, vraiment tres nombreux ...", MONSTER_14_IMAGE_PATH, 25, 0, 200, 6)));
+    _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "HORDE DE ZOMBIES", "Ils sont lents. Ils ne font pas tres mal. Ils ne sont pas resistants. Mais ils sont nombreux, tres nombreux, vraiment tres nombreux ...", MONSTER_14_IMAGE_PATH, 25, 0, 200, 6)));
     _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "BEBE DRAGON", "Ooooooh, qu'il est mignon ! On aurait presque envie de lui faire des calins, ... enfin s'il ne crachait pas du feu sur toutes les personnes qui l'approchent...", MONSTER_15_IMAGE_PATH, 40, 10, 200, 7)));
     _allRooms.push_back(unique_ptr<Room>(new Monster(MONSTER, false, "BEBE DRAGON", "Ooooooh, qu'il est mignon ! On aurait presque envie de lui faire des calins, ... enfin s'il ne crachait pas du feu sur toutes les personnes qui l'approchent...", MONSTER_15_IMAGE_PATH, 40, 10, 200, 7)));
     // 30 CARDS
@@ -196,6 +196,11 @@ void Dungeon::generate()
 
 void Dungeon::regenerate()
 {
+    for (int i=0; i<NB_CARDS; i++)
+    {
+        _allRooms[i]->setInDeck(false);
+        _allRooms[i]->setVisited(false);
+    }
     int randPosition;
     int nbInGameCards = NB_CARDS_INGAME;
     random_device r;
